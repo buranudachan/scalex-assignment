@@ -33,6 +33,7 @@ class AppComponent extends React.Component<any, any>{
       url: 'https://ic3haoorgj.execute-api.ap-south-1.amazonaws.com/api/auth',
       data: { username: this.state.username, password: this.state.password }
     };
+    /**I was  getting forbidden error while calling api thats way commented code*/
     let res: any;// = await serviceRequest.request(options);
     console.log(res)
     if (!res) {
