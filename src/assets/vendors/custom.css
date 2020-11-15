@@ -1,0 +1,74 @@
+
+ body {
+  font-family:'Helvetica Neue',sans-serif !important;
+}
+  
+.font-size{
+font-size: 25px;
+}
+   /*font  */
+   .text{
+    font-weight: bold;
+   }
+
+#myContainer{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.my-text-center1{
+  font-weight: bold;
+  font-size: xx-large;
+  position: absolute;
+  top:13%;
+  left:13%;
+
+}
+.my-text-center2{
+  font-weight: bold;
+  font-size: x-large;
+  position: absolute;
+  top: 21%;
+  left: 9%;
+  right: 8%;
+
+}
+.form-center{
+  margin-top: 25%;
+}
+.border-radius{
+  border-radius: 18px;
+}
+.btn-xl {
+  background-color:  #d83209;
+  color: white;
+  font-size: 24px;
+  border-radius: 13px;
+  width: 100%;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 253px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(61, 15, 15); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 28px;
+  display: block;
+}
+.color {
+  color: #e8e8e8;
+}
+@media screen and (max-width: 768px) {
+  #myContainer {display:none}
+}
+@media screen and (max-width: 768px) {
+  #sidebar {display:none}
+}
