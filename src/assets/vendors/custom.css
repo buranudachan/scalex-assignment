@@ -40,7 +40,7 @@ font-size: 25px;
   border-radius: 18px;
 }
 .btn-xl {
-  background-color:  #d83209;
+  background-color:  #e2684a;
   color: white;
   font-size: 24px;
   border-radius: 13px;
@@ -54,13 +54,13 @@ font-size: 25px;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: rgb(61, 15, 15); /* Black */
+  background-color: #935A36; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 24px;
   display: block;
 }
 .color {
@@ -68,7 +68,5 @@ font-size: 25px;
 }
 @media screen and (max-width: 768px) {
   #myContainer {display:none}
-}
-@media screen and (max-width: 768px) {
   #sidebar {display:none}
 }

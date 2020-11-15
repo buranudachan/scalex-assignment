@@ -22,7 +22,7 @@ function Sidebar() {
                 </Link>
             </div>
             <div>
-                <Link to="/signout">
+                <Link to="/">
                     <label className="color">Signout</label>
                 </Link>
             </div>
